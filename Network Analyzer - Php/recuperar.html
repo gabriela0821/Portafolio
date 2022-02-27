@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="width=device-width, initial-scale=1">
+    <title>Recuperar Contraseña</title>
+    <script language="Python" type="text/Python"
+        src="C:\Users\57315\Downloads\Proyecto_2021_02-main\Proyecto_2021_02-main\Proyecto_Pagina\login.py"></script>
+    <link rel="stylesheet" href="assets/css/estilos_recuperar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login_cuadro">
+            <form class=form method="POST" action="recuperar.php">
+                <div class=""></div>
+                <img class="logo" src="assets/img/logo.png">
+                <h2>Recuperar Contraseña</h2>
+                <div class="input_correo">
+                    <label>Ingresar usuario</label>
+                    <input type="text" class="form-input" name="usuario">
+                </div>
+                <br>
+                <div class="input_contraseña">
+                    <label>Contraseña</label>
+                    <input type="password" class="form-input" name="contrasena">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Escoge tu pregunta de seguridad:</label>
+                    <select class="form-input" name="pregunta">
+                        <option value="0">¿Como se llamaba tu primera mascota?</option>
+                        <option value="1">¿Como se llama tu madre?</option>
+                        <option value="2">¿Cual es tu marca favorita?</option>
+
+                    </select>
+
+                </div>
+                <br>
+                <div class="input_respuesta">
+                    <label>Ingresa la respuesta</label>
+                    <input type="text" class="form-input" name="respuesta">
+                </div>
+
+                
+                <input type="submit" class="btn_recuperar" value="Recuperar Contraseña">
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="width=device-width, initial-scale=1">
+    <title>Registrarse</title>
+    <script language="Python" type="text/Python"
+        src="C:\Users\57315\Downloads\Proyecto_2021_02-main\Proyecto_2021_02-main\Proyecto_Pagina\login.py"></script>
+    <link rel="stylesheet" href="assets/css/estilos_registro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login_cuadro">
+            <form method="POST" action="guardar.php" class="register-form">
+                <img class="logo" src="assets/img/logo.png">
+                <h2> CREAR CUENTA</h2>
+                <br>
+                <div class="input-div one">
+                    <h5>Usuario</h5>
+                    <input type="text" class="input" name="usuario">
+                </div>
+
+                <div class="input-div two">
+                    <h5>Contraseña</h5>
+                    <input type="password" class="input" name="contrasena">
+                </div>
+                <br>
+                <div class="form-group">
+                    <h5> Escoge una pregunta:</h5>
+                    <select class="form-input" name="pregunta">
+                        <option value="0">¿Como se llamaba tu primera mascota?</option>
+                        <option value="1">¿Como se llama tu madre?</option>
+                        <option value="2">¿Cual es tu marca favorita?</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-div ">
+                    <h5>Respuesta</h5>
+                    <input type="text" class="input" name="respuesta">
+                </div>
+                <input type="submit" class="btn_registrarse" id="crear_cuenta" value="Crear Cuenta"></input>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
